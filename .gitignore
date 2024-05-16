@@ -1,0 +1,31 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*.bak
+
+# Ignore downloaded video segments
+temp_video_download/
+segment_*.ts
+
+# Ignore output video file
+output_*.mp4
+
+# Ignore segment list file
+segments.txt
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore virtual environment directories
+venv/
+.env/
